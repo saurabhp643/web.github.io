@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: azure;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    width: 26%;
+    
+}
+.container h2{
+font-size: 40px;
+border-bottom: 5px solid purple;
+margin-bottom: 15px;
+padding: 13px 0;
+display:inline-block;
+font-family: 'Exo 2', sans-serif;
+}
+.box{margin: 22px 0px;
+    width: 100%;
+border-bottom: 2px solid purple;
+}
+.box input{
+    background: none;
+    outline: none;
+    padding: 5px 10px;
+    margin: 12px 0px ;
+    font-size: 23px;
+    border: none;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+
+}
+.btn{
+    color: white;
+    font-size: 18px;
+    background: none;
+    outline: none;
+    margin:12px 0;
+    cursor: pointer;
+    width: 35%;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.5;
+    color:purple;
+    background: white;
+}
